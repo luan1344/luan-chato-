@@ -9,7 +9,10 @@ function criaCartao(categoria, pergunta, resposta) {
     <div class="cartao__conteudo__pergunta">
        <p>$(pergunta)</p>
     </div>
-      </div>
+     <div class="cartão__conteudo__resposta">
+        <p>${resposta}</p> 
+    </div>
+    </div> 
     
       let respostaEstaVisivel = false
       function viraCartao() {
